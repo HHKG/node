@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ejs</title>
+</head>
+<body>
+<h1>欢迎进入<%=webSite%>的世界</h1>
+<%for(var i=0;i<data.length;i++){%>
+<h5>这里有个人，他的名字叫<%=data[i].name%></h5>
+<h5>今年<%=data[i].age%>岁</h5>
+<h5>他的职业是<%=data[i].position%></h5>%>0000000
+<%}%>
+</body>
+</html>
